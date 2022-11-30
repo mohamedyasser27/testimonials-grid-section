@@ -201,9 +201,10 @@ main {
     grid-column: 1/-1;
     grid-row: 3/4;
   }
+
 }
 
-@media only screen and (max-width: 1204px) {
+@media only screen and (max-width: 810px) {
   .testimonials-grid {
     grid-template-columns: initial;
     grid-template-rows: initial;
