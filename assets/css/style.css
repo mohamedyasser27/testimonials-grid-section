@@ -49,6 +49,7 @@ html {
     position: absolute;
     width: 1px; }
 
+
 .resetBtnStyle {
   background-color: transparent;
   border: none;
@@ -75,7 +76,10 @@ main {
 .testimonials-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr) ;
-  grid-template-rows: fit-content(280px) fit-content(240px);
+  grid-template-rows: 1fr 1fr;/*all valid values*/
+  grid-template-rows: fit-content(280px) fit-content(240px);/*all valid values*/
+  grid-template-rows:min-content min-content;/*all valid values*/
+  grid-template-rows:auto auto;/*all valid values*/
   gap: 30px;
   width: 75%;
   margin: 0 auto;
